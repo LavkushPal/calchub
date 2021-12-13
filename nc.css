@@ -1,0 +1,1238 @@
+
+/* navbar section */
+#navbar{
+    display: flex;
+    background-color: #505d61;
+    height: 5vw;
+    width: 100%;
+}
+#navbar ul{
+    list-style: none;
+    font-size:20px;
+}
+#navbar li{
+    float: left;
+    margin: 0px 20px;
+}
+#navbar li a{
+    padding: 0px 0px;
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(52, 64, 241);
+}
+
+
+
+
+/* container  */
+.container{
+    position:relative;
+    background-color:wheat;
+    height: 450vh;
+    width: 100%;
+    /* align-content: center;   */
+}
+
+
+/* box1 section */
+.box1{   
+    position: absolute;
+    border-style: solid;
+    border-radius: 8px;
+    background-color:white;
+    height: 70vh;
+    width: 60vw;
+    top:3%;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+.nc{
+    display: flex;
+    justify-content: center;
+    color: #6495ed;   
+}
+.nc::selection{
+    background-color: chartreuse;
+}
+#number{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+} 
+#numberheading{
+    position: relative;
+    padding-left: 0px;
+    padding-right: 10px;
+    top: 35px;
+}
+#number1{
+    position: relative;
+    top: 35px;
+} 
+#base1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#base1heading{
+    position: relative;
+    padding-right: 20px;
+    top: 60px;
+}
+#choosefrom{
+    position: relative;
+    top: 60px;
+}
+#base2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#base2heading{
+  position: relative;
+  padding-right: 40px;
+  top: 50px;
+}
+#chooseto{
+    position: relative;
+    top: 50px;
+}
+#result{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#resultheading{
+    position: relative;
+    padding-right: 30px;  
+    top: 90px;
+    bottom:0px;
+}
+#resulttxt{
+    position: relative;
+    top: 100px;
+    
+}
+#resultheading:hover{
+    height: 10px;
+}
+#alert{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: rgb(250, 172, 117);
+}
+
+
+
+/* box2 section */
+.box2{   
+    position: absolute;
+    background-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    height: 80vh;
+    width: 60vw;
+    top:22%;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+.calc{
+    display: flex;
+    justify-content: center;     
+}
+.calc::selection{
+    background-color: chartreuse;
+}
+.calcresult{
+    /* display: flex;
+    justify-content: center; */
+    /* background-color: rgb(245, 13, 206);   */
+    /* color: rgb(218, 231, 37);  */
+    /* height: 20vh; */
+    width: 60vw;  
+}
+#showexpression{   
+    display:flex;
+    position:relative; 
+    height: 15vh;
+    width: 60vw;  
+
+}
+#showresult{
+    position:relative;
+    /* height: 5vh; */
+    width: 60vw;  
+}
+
+/* #showexpression{
+    display: flex;
+
+} */
+.calctools{
+    /* display: flex;
+    justify-content: center; */
+    /* background-color: tomato; */
+    /* color: #eb22d0;    */
+    height: 48vh;
+    width: 60vw;
+    /* background-color: white;  */
+}
+.calctools img{
+  position: absolute;
+  height: 10%;
+  top: 10px;
+}
+.calctools img:hover{
+    background-color:silver;
+    border-radius: 30px;
+}
+
+#allCancle{
+    position: absolute;
+    left: 5%;
+    top: 43%;
+}
+#modulus{
+    position: absolute;
+    left: 21%;
+    top: 43%;
+}
+#cancle{
+    position: absolute;
+    left: 39%;
+    top: 43%;
+}
+#devide{
+    position: absolute;
+    left: 60%;
+    top: 43%;
+}
+#pi{
+    position: absolute;
+    left: 80%;
+    top: 43%;
+}
+#seven{
+    position: absolute;
+    left: 5%;
+    top: 55%;
+}
+#eight{
+    position: absolute;
+    left: 21%;
+    top: 55%;
+}
+#nine{
+    position: absolute;
+    left: 39%;
+    top: 55%;
+}
+#multiply{
+    position: absolute;
+    left: 60%;
+    top: 55%;
+}
+#factorial{
+    position: absolute;
+    left: 82%;
+    top: 55%;
+}
+
+#four{
+    position: absolute;
+    left: 5%;
+    top: 65%;
+}
+#five{
+    position: absolute;
+    left: 21%;
+    top: 65%;
+}
+#six{
+    position: absolute;
+    left: 39%;
+    top: 65%;
+}
+#minus{
+    position: absolute;
+    left: 61%;
+    top: 65%;
+}
+#square{
+    position: absolute;
+    left: 80%;
+    top: 65%;
+}
+#one{
+    position: absolute;
+    left: 5%;
+    top: 75%;
+}
+#two{
+    position: absolute;
+    left: 21%;
+    top: 75%;
+}
+#three{
+    position: absolute;
+    left: 39%;
+    top: 75%;
+}
+#plus{
+    position: absolute;
+    left: 60%;
+    top: 75%;
+}
+#power{
+    position: absolute;
+    left: 81%;
+    top: 76%;
+}
+#point{
+    position: absolute;
+    left: 7%;
+    top: 85%;
+}
+#zero{
+    position: absolute;
+    left: 21%;
+    top: 85%;
+}
+#equalTo{
+    position: absolute;
+    left: 39%;
+    top: 85%;
+}
+
+
+
+/* box3 section */
+.box3{   
+    position: absolute;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: white;
+    height: 80vh;
+    width: 60vw;
+    top: 43%;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+.temphead{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.temphead::selection{
+    background-color: chartreuse;
+}
+#inputdiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 6vh;
+    padding-top: 40px;
+}
+#inputdiv input{
+      font-size: medium;
+      border-radius: 5px;
+      padding-inline-start: 10px;
+      border: none;
+      box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+
+#chooseinput{
+    position:relative;
+    top: 60px;
+    margin-right: 0px;
+    left: 35%;
+}
+
+#chooseoutput{
+    position:relative;
+    top: 60px;
+    margin-left: 0px;
+    left: 40%;
+}
+#convertbtn{
+    position: absolute;
+    top:60%;
+    left: 46%;
+}
+#resultbox{
+    position: relative;
+    background-color:lightgray;
+    padding-inline-start:5px ;
+    padding-inline-end: 90px;
+    border-radius: 5px;
+    height: 26%;
+    /* width: max-content; */
+    top: 35%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#resultplace{   
+    position: relative;
+    outline: none;
+    height: 80%;
+    width: 100%;    
+    word-wrap:break-word;
+    /* overflow-y: scroll; */
+    /* word-break: break-all; */        
+    top: 10%;    
+    margin-left: 40px;
+    margin-right: 0px;
+
+}
+
+
+
+/*box4 section */
+.box4{   
+    position: absolute;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: white;
+    height: 80vh;
+    width: 60vw;
+    top: 64%;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+.emihead{          
+    display: flex;
+    justify-content: center;
+}
+.ingrp{    
+    position: relative;    
+    height: 33vh;
+    width: 60vw;    
+}
+#inamount{
+    position:inherit;
+    background-color: white;
+    border-radius: 5px;
+    height: 6vh;
+    width: 30vw;
+    left: 82px;
+    top: 25px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+#interest{
+    position: inherit;
+    background-color:white ;
+    height: 6vh;
+    width: 30vw;
+    left: 82px;
+    top: 70%;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+#inyear{
+    position: inherit;
+    background-color: white;
+    height: 6vh;
+    width: 30vw;
+    left: 82px;
+    top: 67px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+}
+.outgrp{
+    position: relative;
+    /* background-color: crimson; */
+    height: 30vh;
+    width: 60vw;    
+}
+#calculate{
+    position: absolute;
+    left:38% ;
+    top: -30px;    
+    opacity: 0.9;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0 5px 6px 0 rgb(32 33 36 / 28%);
+}
+#headinterest{
+    position: absolute;
+    left:23% ;
+    top: -10px;
+    opacity: 0.7;
+}
+#si{
+    position: inherit;
+    background-color:white;
+    height: 30%;
+    width: 33vw;
+    left: 17%;
+    top: 10px;
+    margin: 20px;
+    padding-top: 5px; 
+    overflow-wrap: break-word;
+    overflow-y: hidden;
+    font-size:medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 10px 0 rgb(32 33 36 / 28%);
+}
+#heademi{
+    position: absolute;
+    left:23% ;    
+    opacity: 0.7;
+}
+#emi{
+    position:relative;
+    background-color:white;
+    height: 30%;
+    width: 33vw;
+    left: 17%;
+    top: 20px;
+    margin: 20px; 
+    padding-top: 5px;  
+    word-wrap: break-word;    
+    overflow-y: hidden;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 10px 0 rgb(32 33 36 / 28%);
+}
+
+
+
+
+
+/* box5 section */
+.box5{
+    position: absolute;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: white;
+    height: 55vh;
+    width: 60vw;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+#agehead{            
+    display: flex;
+    justify-content: center;
+}
+#showdobname{
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    font-size: medium;
+    opacity: 0.8;
+}
+#userdate{
+    position:absolute;
+    height: 6%;
+    width: 42%;
+    left: 26%;
+    top: 40%;  
+    padding-top: 10%;
+    padding: 5px;  
+    border: none;
+    border-radius: 4px;
+    font-size: large;    
+    box-shadow:0 1px 6px 0 rgb(15, 29, 228);
+}
+#showagename{
+    position: relative;
+    top: 45%;
+    left: 12%;
+    opacity: 0.8;
+}
+#userage{
+    position:relative;
+    background-color:white;
+    height: 13%;
+    width: 45vw;
+    left: 11%;
+    top: 46%;
+    margin: 0px;     
+    padding-top: 22px;  
+    word-wrap: break-word;    
+    overflow-y: hidden;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    border-radius: 5px;
+    padding-inline-start: 8px;
+    box-shadow: 0 1px 6px 0 rgb(15, 29, 228);
+}
+
+
+
+
+/* footer section */
+
+#footer{
+    display: flex;    
+    position:inherit;    
+    background-color:rgb(39, 63, 245);
+    max-height: fit-content;  
+    max-width: 100%;   
+    font-size: 20px;    
+}  
+#aboutme{     
+    width: 50%;
+    padding-left: 8px ; 
+       
+}
+#contactus{        
+    width:50%;    
+    padding-right: 8px ;
+}  
+
+
+
+
+
+/* media query for a responsivness */
+
+@media(max-width:400px){
+    
+    /* nav bar media query */
+    #navbar{
+        display: flex;
+        background-color: #505d61;
+        height: 140px;
+    }   
+    #navbar li{              
+        margin-bottom: 5px;
+        padding-top: 3px;
+    }
+    #navbar li a{       
+        color:white;
+        text-decoration: none;
+    }
+    a:hover{       
+        background-color: rgb(52, 64, 241);
+    }
+    
+    /* container media query */
+    .container{
+        height: 2600px;       
+        background-color: white;
+    }
+
+    /* box1 media query */
+    .box1{                
+        height: 500px;
+        width: 100%;
+        top:5px;           
+    }        
+    #numberheading{
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 0px;
+        top: 75px;
+    }
+    #number1{
+        position:relative;        
+        width: 70%;
+        top: 35px;
+    }                         
+    #result{
+        position: relative;
+    }
+    #resultheading{
+        position: absolute;
+        padding-right: 30px;  
+        top:70px;        
+    }
+    #resulttxt{
+        position: absolute;
+        top: 100px;
+        
+    }    
+
+
+    /* box2 media query */
+    .box2{           
+        height: 500px;
+        width: 100%;
+        top:21%;          
+    }                                
+
+
+    /* box3 media query */
+    .box3{          
+        height: 500px;
+        width: 100%;
+        top: 42%;                   
+    }
+    .temphead{
+        font-size:x-large;      
+    }   
+    #inputdiv{        
+        height: 50px;
+        padding-top: 30px;
+    }
+    #inputdiv input{ 
+        display: unset;
+        position: relative;                  
+        padding-inline-start: 20px;          
+    } 
+    #chooseinput{
+        position:relative;
+        top: 50px;
+        margin-right: 0px;
+        left:23%;
+    }
+    #chooseoutput{
+        position:relative;
+        top: 50px;
+        margin-left: 0px;
+        left: 30%;
+    }
+    #convertbtn{
+        position: absolute;
+        top:55%;
+        left: 40%;
+    }
+    #resultbox{
+        position: relative;
+        background-color:lightgray;
+        padding-inline-start:5px ;
+        padding-inline-end: 90px;
+        border-radius: 5px;       
+        height: 26%;               
+        top: 30%;
+        margin-left: 30px;
+        margin-right: 30px;       
+    }
+    #resultplace{              
+        word-wrap:break-word;               
+        top: 10%;    
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+    
+ 
+    /* box4 media query */
+    .box4{                   
+        height: 500px;
+        width: 100%;
+        top: 63%;
+        left: 50%;
+        transform: translateX(-50%);    
+    }   
+    .ingrp{    
+        position: relative;    
+        height: 200px;
+        width: 80%;    
+    }
+    #inamount{              
+        height: 32px;
+        width: 229px;
+        left: 60px;                            
+    }
+    #interest{       
+        height: 32px;
+        width: 229px;
+        left: 60px;
+        top: 22%;        
+    }
+    #inyear{        
+        height: 32px;
+        width: 229px;
+        left: 60px;
+        top: 33%;        
+    }
+    .outgrp{
+        position: relative;        
+        height: 200px;
+        width: 80%;    
+    }
+    #calculate{
+        left:45% ;
+        top: -32px;          
+    }
+    #headinterest{       
+        left:23% ;      
+    }
+    #si{              
+        width: 227px;
+        left: 15%;                
+    }
+    #heademi{
+        position: absolute;
+        left:23% ;    
+        opacity: 0.7;
+    }
+    #emi{        
+        width: 227px;
+        left: 15%;               
+    }
+    
+
+    /* box5 media query */
+    .box5{       
+        width: 100%;
+        height: 400px; 
+        top:84%;             
+    }
+    #showdobname{ 
+        top: 25%;      
+        left: 34%;
+        font-size: unset;
+    }
+    #userdate{  
+        top: 32%;      
+        left: 16%;
+        width: 60%;
+    }
+    #showagename{
+        left: 38%;
+        top: 38%;
+    }
+    #userage{
+        left: 16%;
+        top: 39%;
+        width:60vw ;
+        height:20% ;
+        overflow-y: scroll;
+    }
+
+    #footer{        
+        font-size: unset;                     
+    }  
+
+}
+
+
+
+@media (max-width:1025px)and  (min-width:401px)
+{
+    /* nav bar media query */
+    #navbar{
+        display: flex;
+        background-color: #505d61;
+        height: 105px;
+    }   
+    #navbar li{                  
+         margin-bottom: 0px;
+         padding-top: 5px;          
+       
+    }
+        
+    /* container media query */
+    .container{
+        height: 4200px;       
+        background-color: white;
+    }
+ 
+    /* box1 media query */
+    .box1{                
+        height: 600px;
+        width: 100%;
+        top:5px;           
+    }        
+    #numberheading{
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 0px;
+        top: 140px;
+    }
+    #number1{
+        position:relative;        
+        width: 70%;
+        top: 100px;
+    }     
+    #base1heading{
+        position: relative;
+        padding-right: 20px;
+        top: 100px;
+    }
+    #choosefrom{
+        position: relative;
+        top: 100px;
+    }    
+    #base2heading{
+      position: relative;
+      padding-right: 40px;
+      top: 100px;
+    }
+    #chooseto{
+        position: relative;
+        top: 100px;
+    }                      
+    #result{
+        position: relative;
+    }
+    #resultheading{
+        position: absolute;
+        padding-right: 30px;  
+        top:150px;        
+    }
+    #resulttxt{
+        position: absolute;
+        top: 190px;               
+    }    
+
+
+    /* box2 media query */
+    .box2{           
+        height: 850px;
+        width: 100%;
+        top:20%;          
+    }                                
+
+
+    /* box3 media query */
+    .box3{          
+        height: 650px;
+        width: 100%;
+        top: 46%;                   
+    }
+    .temphead{
+        font-size:xx-large;      
+    }   
+    #inputdiv{ 
+        position:absolute;      
+        height: 50px;
+        left: 30%;        
+        padding-top: 50px;
+    }
+    #inputdiv input{ 
+        display: unset;
+        position: relative;                  
+        padding-inline-start: 20px;          
+    } 
+    #chooseinput{
+        position:relative;
+        top: 140px;
+        margin-right: 0px;
+        left:30%;
+    }
+    #chooseoutput{
+        position:relative;
+        top: 140px;
+        margin-left: 0px;
+        left: 37%;
+    }
+    #convertbtn{
+        position: absolute;
+        top:55%;
+        left: 40%;
+    }
+    #resultbox{
+        position: relative;
+        background-color:lightgray;
+        padding-inline-start:5px ;
+        padding-inline-end: 90px;
+        border-radius: 5px;       
+        height: 26%;               
+        top: 45%;
+        margin-left: 30px;
+        margin-right: 30px;       
+    }
+    #resultplace{              
+        word-wrap:break-word;               
+        top: 10%;    
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+    
+ 
+    /* box4 media query */
+    .box4{                   
+        height: 650px;
+        width: 100%;
+        top: 68%;
+        left: 50%;
+        transform: translateX(-50%);    
+    }   
+    .ingrp{    
+        position: relative;    
+        height: 250px;
+        width: 80%;    
+    }
+    #inamount{ 
+                     
+        height: 35px;
+        width: 280px;
+        left: 202px;                            
+    }
+    #interest{
+        position: absolute;   
+        height: 35px;
+        width: 280px;
+        left: 202px;
+        top: 40%;        
+    }
+    #inyear{   
+        position:absolute ;   
+        height: 35px;
+        width: 280px;
+        left: 202px;
+        top: 70%;        
+    }
+    .outgrp{
+        position: relative;        
+        height: 200px;
+        width: 80%;    
+    }
+    #calculate{
+        left:42% ;
+        top: -32px;          
+    }
+    #headinterest{ 
+        top: 15%;      
+        left:205px ;      
+    }
+    #si{   
+        top: 25%;           
+        width: 280px;
+        left: 190px;                
+    }
+    #heademi{
+        top: 40%;
+        position: relative;
+        left:205px;    
+        opacity: 0.7;
+    }
+    #emi{    
+        top: 32%;    
+        width: 280px;
+        left: 190px;               
+    }
+    
+
+    /* box5 media query */
+    .box5{       
+        width: 100%;
+        height: 450px; 
+        top:89%;             
+    }
+    #showdobname{ 
+        top: 25%;      
+        left: 34%;
+        font-size: unset;
+    }
+    #userdate{  
+        top: 32%;      
+        left: 16%;
+        width: 60%;
+    }
+    #showagename{
+        left: 38%;
+        top: 38%;
+    }
+    #userage{
+        left: 16%;
+        top: 39%;
+        width:60vw ;
+        height:20% ;
+        overflow-y: scroll;
+    }
+
+    #footer{        
+        font-size: unset;                     
+    }   
+
+}
+
+
+@media (min-width:1026px)
+{
+    /* navbar section */
+#navbar{   
+    height: 100px;
+    width: 100%;
+}
+#navbar li{ 
+    margin: 10px 20px;
+}
+
+
+/* container  */
+.container{
+    position:relative;
+    background-color:wheat;
+    height:3500px;
+    width: 100%;
+    /* align-content: center;   */
+}
+
+
+/* box1 section */
+.box1{      
+    height: 450px;       
+}
+
+/* box2 section */
+.box2{      
+    height: 500px;  
+    top: 22%;
+}
+.calcresult{
+    width: 60vw;  
+}
+#showexpression{   
+    display:flex;
+    position:relative; 
+    height: 110px;
+    width: 60vw;  
+
+}
+
+/* box3 section */
+.box3{       
+    height: 500px;
+    width: 60vw;
+    top: 41%;        
+}
+#inputdiv{ 
+    height: 6vh;
+    padding-top: 40px;
+}
+#inputdiv input{
+      width: 30%;     
+}
+#chooseinput{
+    position:relative;
+    top: 60px;
+    margin-right: 0px;
+    left: 38%;
+}
+
+#chooseoutput{
+    position:relative;
+    top: 60px;
+    margin-left: 0px;
+    left: 47%;
+}
+#convertbtn{
+    position: absolute;
+    top:62%;
+    left: 40%;
+}
+#resultbox{
+    height: 20%;
+    top: 26%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/*box4 section */
+.box4{       
+    height: 550px;
+    width: 60vw;
+    top: 61%;      
+}
+.ingrp{        
+    height: 250px;
+    width: 60vw;    
+}
+#inamount{  
+    height: 45px;
+    width: 30vw;
+    left: 18%;
+    top: 25px;    
+}
+#interest{
+    height: 45px;
+    width: 30vw;
+    left: 18%;
+    top: 55px;    
+}
+#inyear{   
+    height: 45px;
+    width: 30vw;
+    left: 18%;
+    top: 85px;
+}
+.outgrp{
+    position: relative;
+    /* background-color: crimson; */
+    height: 120px;
+    width: 60vw;    
+}
+#calculate{    
+    left:38% ;
+    top: -32px;        
+}
+#headinterest{   
+    left:19% ;
+    top: 15px;
+    opacity: 0.7;
+}
+#si{   
+    height: 30%;
+    width: 30vw;
+    left: 17%;
+    top: 40px;     
+}
+#heademi{
+    left:19% ;
+    top: 95%;    
+    opacity: 0.7;
+}
+#emi{ 
+    width: 30vw;      
+    left: 17%;
+    top: 80px;    
+}
+
+
+
+/* box5 section */
+.box5{    
+    height: 450px;
+    width: 60vw;
+    top: 82%;   
+}
+#showdobname{   
+    top: 35%;
+    left: 43%;   
+}
+
+
+/* footer section */
+
+#footer{
+    display: flex;    
+    position:inherit;    
+    background-color:rgb(39, 63, 245);
+    max-height: fit-content;  
+    max-width: 100%;   
+    font-size: 20px;    
+}  
+#aboutme{     
+    width: 50%;
+    padding-left: 8px ; 
+       
+}
+#contactus{        
+    width:50%;    
+    padding-right: 8px ;
+}  
+
+
+
+}
+

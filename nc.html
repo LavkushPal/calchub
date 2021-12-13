@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calchub.com</title>
+    <link rel="stylesheet" href="nc.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <ul>
+            <li> <a href="#">Number Con</a></li>
+            <li> <a href="#Calculator">Calculator</a></li>
+            <li> <a href="#Temprature Cal">Temprature Calc</a></li>
+            <li> <a href="#EMI Cal">EMI Calc</a></li>
+            <li> <a href="#Age Calc">Age Calc</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="box1">
+            <H1 class="nc">Number Conversion </H1>
+            <hr>
+            <div id="alert">
+            </div>
+            <div id="number">
+                <h3 id="numberheading">Enter Number : </h3>
+                <textarea name="" id="number1" cols="65" rows="02"></textarea>
+            </div>
+            <div id="base1">
+                <h4 id="base1heading">Choose : From</h4>
+                <select name="" id="choosefrom">
+                    <option value="binary" id="binary">Binary</option>
+                    <option value="octal" id="octal">Octal</option>
+                    <option value="decimal" id="decimal">Decimal</option>
+                    <option value="hexadecimal" id="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div id="base2">
+                <h4 id="base2heading">Choose : To</h4>
+                <select name="" id="chooseto">
+                    <option value="decimal" id="decimal">Decimal</option>
+                    <option value="binary" id="binary">Binary</option>
+                    <option value="octal" id="octal">Octal</option>
+                    <option value="hexadecimal" id="hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div id="result">
+                <div id="resultheading">
+                    <button type="submit" id="convert"> Convert</button>
+                </div>
+                <textarea name="" id="resulttxt" cols="35" rows="04"
+                    placeholder="here , your result will be show"></textarea>
+            </div>
+        </div>
+
+        <div class="box2" id="Calculator">
+            <h1 class="calc">Calculator</h1>
+            <hr>
+            <div class="calcresult">
+                <div id="showexpression">
+                </div>
+                <div id="showresult">
+                </div>
+            </div>
+            <hr>
+
+            <div class="calctools">
+
+                <img src="calcTools/allCancle.png" alt="#" id="allCancle" class="operator">
+                <img src="calcTools/modulus.png" alt="#" id="modulus" class="operator">
+                <img src="calcTools/1Cancle.png" alt="#" id="cancle" class="operator">
+
+                <img src="calcTools/7.png" alt="7" id="seven" class="values">
+                <img src="calcTools/8.png" alt="8" id="eight" class="values">
+                <img src="calcTools/9.png" alt="9" id="nine" class="values">
+                <img src="calcTools/4.png" alt="4" id="four" class="values">
+                <img src="calcTools/5.png" alt="5" id="five" class="values">
+                <img src="calcTools/6.png" alt="6" id="six" class="values">
+                <img src="calcTools/1.png" alt="1" id="one" class="values">
+                <img src="calcTools/2.png" alt="2" id="two" class="values">
+                <img src="calcTools/3.png" alt="3" id="three" class="values">
+                <img src="calcTools/0.png" alt="0" id="zero" class="values">
+
+                <img src="calcTools/point.png" alt="#" id="point" class="operator">
+                <img src="calcTools/plus.png" alt="#" id="plus" class="operator">
+                <img src="calcTools/minus.png" alt="#" id="minus" class="operator">
+                <img src="calcTools/multiply.png" alt="#" id="multiply" class="operator">
+                <img src="calcTools/devide.png" alt="#" id="devide" class="operator">
+                <img src="calcTools/pi.png" alt="#" id="pi" class="operator">
+                <img src="calcTools/factorial.png" alt="#" id="factorial" class="operator">
+                <img src="calcTools/equalTo.png" alt="#" id="equalTo" class="operator">
+                <img src="calcTools/power.png" alt="#" id="power" class="operator">
+                <img src="calcTools/square.png" alt="#" id="square" class="operator">
+
+
+            </div>
+
+
+        </div>
+
+        <div class="box3" id="Temprature Cal">
+
+            <h1 class="temphead">Temprature convertor</h1>
+            <hr>
+
+            <div id="inputdiv">
+                <input type="number" id="inputv" placeholder="Enter number here">
+            </div>
+
+            <div id="choose">
+
+                <select name="" id="chooseinput">
+                    <option value="from">from</option>
+                    <option value="celcious">celcious</option>
+                    <option value="fahrenheit">fahrenheit</option>
+                    <option value="kelvin">kelvin</option>
+                </select>
+
+
+                <select name="" id="chooseoutput">
+                    <option value="to">to</option>
+                    <option value="fahrenheit">fahrenheit</option>
+                    <option value="kelvin">kelvin</option>
+                    <option value="celcious">celcious</option>
+                </select>
+            </div>
+
+            <button id="convertbtn">Convert</button>
+
+            <div id="resultbox">
+                <p id="resultplace"> result will be show here
+                </p>
+            </div>
+
+
+        </div>
+
+        <div class="box4" id="EMI Cal">
+
+            <h2 class="emihead">EMI Calculator</h2>
+            <hr>
+
+            <div class="ingrp">
+                <input type="number" id="inamount" placeholder="Enter Amount">
+                <input type="number" id="interest" placeholder="Enter Interest(%)">
+                <input type="number" id="inyear" placeholder="Enter Year">
+            </div>
+            <hr>
+
+            <div class="outgrp">
+                <button id="calculate">calculate</button>
+                <label id="headinterest">Interest</label>
+                <div id="si">
+                </div>
+
+                <label id="heademi">EMI</label>
+                <div id="emi"> </div>
+            </div>
+
+        </div>
+
+        <div class="box5" id="Age Calc">
+            <h2 id="agehead">Age Calculator</h2>
+            <hr>
+            <label for="age" id="showdobname">Date of Birth</label>
+            <input type="date" name="userdate" id="userdate">
+            <label for="user" id="showagename">You're</label>
+            <div id="userage"> </div>
+
+
+        </div>
+
+    </div>
+
+
+    <footer id="footer">
+        <div id="aboutme">
+            <label for="about">About Me</label>
+            <hr>
+            <p>Easily Access Many Calculator <br> on calchub.com
+
+            <ol>
+                <li>Number Converter</li>
+                <li>Calculator</li>
+                <li>Temprature Converter</li>
+                <li>EMI Calculator</li>
+                <li>Age Calculator</li>
+            </ol>
+            reduce your efforts
+            </p>
+            <pre>No Copyright Issues</pre>
+        </div>
+
+        <div id="contactus">
+
+            <label for="contact">Contact Us
+                <hr>
+                <P>Email: reallav134@gmail.com</P>
+                <Address>Kakarha, Sonori, Teonther, Rewa, MadhyaPradesh ,486226</Address><br>
+                or<br>
+                <address>Anand Nagar, Piplani, Bhopal, Madhya Pradesh,462022</address>
+            </label>
+
+            <pre><br>Coded by Lavkush Pal</pre>
+        </div>
+    </footer>
+</body>
+<script src="nc.js"></script>
+
+
+</html>
