@@ -19,11 +19,15 @@
     color:white;
     text-decoration: none;
 }
+#navbar li:hover{
+    color:white;
+    text-decoration:underline;
+}  
 a:hover{
-    background-color: rgb(52, 64, 241);
+    text-decoration: underline;
+    background-color:#6495ed;
+    border-radius: 5px ;
 }
-
-
 
 
 /* container  */
@@ -142,7 +146,8 @@ a:hover{
 }
 .calc{
     display: flex;
-    justify-content: center;     
+    justify-content: center; 
+    color: #6495ed;     
 }
 .calc::selection{
     background-color: chartreuse;
@@ -326,6 +331,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-content: center;
+    color: #6495ed; 
 }
 .temphead::selection{
     background-color: chartreuse;
@@ -406,6 +412,7 @@ a:hover{
 .emihead{          
     display: flex;
     justify-content: center;
+    color: #6495ed; 
 }
 .ingrp{    
     position: relative;    
@@ -536,6 +543,7 @@ a:hover{
 #agehead{            
     display: flex;
     justify-content: center;
+    color: #6495ed; 
 }
 #showdobname{
     position: absolute;
@@ -590,7 +598,7 @@ a:hover{
 #footer{
     display: flex;    
     position:inherit;    
-    background-color:rgb(39, 63, 245);
+    background-color: #6495ed; ;
     max-height: fit-content;  
     max-width: 100%;   
     font-size: 20px;    
@@ -817,7 +825,8 @@ a:hover{
     }
 
     #footer{        
-        font-size: unset;                     
+        font-size: unset; 
+        background-color: #6495ed; ;                    
     }  
 
 }
@@ -1050,7 +1059,8 @@ a:hover{
     }
 
     #footer{        
-        font-size: unset;                     
+        font-size: unset; 
+        background-color: #6495ed; ;                    
     }   
 
 }
@@ -1217,7 +1227,7 @@ a:hover{
 #footer{
     display: flex;    
     position:inherit;    
-    background-color:rgb(39, 63, 245);
+    background-color: #6495ed; ;
     max-height: fit-content;  
     max-width: 100%;   
     font-size: 20px;    

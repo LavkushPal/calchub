@@ -1174,6 +1174,7 @@ let equalTo = document.getElementById('equalTo');
 equalTo.addEventListener('click', showresult)
 // showresult function will be show the result of expression  
 function showresult() {
+    console.log("equal to pressed : " + equalTo);
     showfinalresult.innerHTML = result();
     digitArray = [];
     unitArray = [];
@@ -1360,7 +1361,7 @@ class Age {
 
 
 let userdob = document.getElementById('userdate');
-userdob.addEventListener('pointerleave', finalage);
+userdob.addEventListener('mouseleave', finalage);
 
 
 function finalage() {
